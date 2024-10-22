@@ -1,5 +1,15 @@
-CV Project
+# Frontend Projects 
 
-Cupcake Bakery project
+HTML + CSS
 
-Portfolio
+## CV 
+
+A basic CV 
+
+## Cupcake Bakery project
+
+Cupcake bakery web shop fronted
+
+## Portfolio
+
+Personal portfolio
