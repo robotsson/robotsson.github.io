@@ -1,36 +1,43 @@
 @import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "fonts.css";
 
-html,body,h1,h2,h3,h5,h6 {font-family: "Roboto", sans-serif; font-weight: 300;}
-h1 {font-family: "Roboto", sans-serif; font-weight: 300;}
-h4 {font-family: "Roboto", sans-serif; font-weight: 400;}
-h5 {font-family: "Roboto", sans-serif; font-weight: 200;}
+html,body,h1,h2,h3,h5,h6 { font-family: "Roboto", sans-serif; font-weight: 300; }
+h1 { font-family: "Roboto", sans-serif; font-weight: 400; }
+h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
+h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 
 body {
-    background-color: white
+  background-color: white
 }
 
 .hrbox {
-  margin-right: 0px;
-  width: 95%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.flex-container{
-    display: flex;
+.flex-container {
+  display: flex;
 }
 
+/* bold is too bold, using this for companies and job titles */
+.not_bold {
+  font-family: "Roboto", sans-serif; font-weight: 400;
+}
+
+/* links used in left side box, dark background */
 a.one:link { color: lightgray; text-decoration: none }
 a.one:visited { color: lightsteelblue; }
 a.one:hover { color: white; text-decoration: underline }
 a.one:active { color: gray; }
 
+/* link used for mail in top right corner, light background */
 a.two:link { color: black; text-decoration: none }
 a.two:visited { color: lightsteelblue; }
 a.two:hover { color: black; text-decoration: underline }
 a.two:active { color: gray; }
 
-
-.left{
+/* Left side layout box */
+.left {
     border: 0px;
     border-style: solid;
     border-color: black;
@@ -45,7 +52,8 @@ a.two:active { color: gray; }
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img_profile{
+/* CV picture */
+.img_profile {
     border-radius: 50%;
     border: 1px;
     display: block;
@@ -60,57 +68,77 @@ a.two:active { color: gray; }
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.left_text{
+/* "About me" and "links" text */
+.left_text {
     margin: auto;
     margin-top: 30px;
     width: 60%;   
     font-family: "Roboto", sans-serif; font-weight: 300;
     color: white;
-    
 }
 
-.right{
+/* Right side layout */
+.right {
     border: 0px;
-    height: 780px;
+    height: 760px;
     width: 75%;
     margin-top: 50px;
-    margin-right: 10px;
-    background-color: lightgrey;    
+    margin-right: 0px;
+    
+/*
+   background-color: lightgrey;    
+*/
 }
 
-
-
-.box{
+/* top layout box for sections in the right side layout */
+.box {
     border: 1px;
     border-style: solid;
     border-color: white;
     height: max-content;
     background-color: white;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 5px;
     padding-left: 20px;
     padding-right: 10px;
     background-color: #ffffff;
 /*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-
 }
 
-.box_left{
+/* layout within .box, top element */
+.box_left {
     font-family: "Roboto", sans-serif; font-weight: 300;
     width: 70%;
     line-height: 0.9;
 }
 
-.box_right{
+/* layout within .box, top element */
+.box_right {
     font-family: "Roboto", sans-serif; font-weight: 200;
     width: 30%;
-    text-align: leftt;
+    text-align: left;
     margin-right: 10px;
     line-height: 1.8;
 }
 
-.footer{
+/* layout within .box jobs/education */
+.box_left_job {
+  font-family: "Roboto", sans-serif; font-weight: 300;
+  width: 40%;
+  line-height: 1.5;
+}
+
+/* layout within .box, jobs/education */
+.box_right_job {
+  font-family: "Roboto", sans-serif; font-weight: 200;
+  width: 60%;
+  text-align: left;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+
+.footer {
     border: 1px;
     border-style: solid;
     border-color: white;
@@ -118,8 +146,8 @@ a.two:active { color: gray; }
     background-color: white;
     padding-left: 10px;
     margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 
     text-align: center;
     /*
