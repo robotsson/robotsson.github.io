@@ -8,7 +8,7 @@ A basic CV
 
 ## Cupcake Bakery project
 
-Cupcake bakery web shop fronted
+Cupcake bakery web shop frontend
 
 ## Portfolio
 
