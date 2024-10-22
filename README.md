@@ -1,10 +1,10 @@
 # Frontend Projects 
 
-HTML + CSS
+Projects for learning responsive web design in HTML and CSS.
 
 ## CV 
 
-[Attempt at responsive web design](https://robotsson.github.io/cv/index.html)
+[CV](https://robotsson.github.io/cv/index.html)
 
 ## Cupcake Bakery project
 
