@@ -4,12 +4,12 @@ HTML + CSS
 
 ## CV 
 
-A basic CV 
+[CV](https://robotsson.github.com/cv/index.html)
 
 ## Cupcake Bakery project
 
-Cupcake bakery web shop frontend
+[Cakery](https://robotsson.github.com/cv/index.html)
 
 ## Portfolio
 
-Personal portfolio
+[Portfolio](https://robotsson.github.com/cv/index.html)
