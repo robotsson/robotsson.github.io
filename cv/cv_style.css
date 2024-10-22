@@ -1,0 +1,53 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif}
+
+body {
+    background-color: #f1f1f1
+}
+
+.flex-container{
+    display: flex;
+}
+
+.left{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    /* height: 200px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 800px;
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px;
+    /* border-radius: 50%; */
+}
+
+.right{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: max-content;
+    width: 70%;
+    background-color: lightblue;
+    
+}
+
+.box{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: max-content;
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 30px;
+    border-radius: 50%;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 2px 2px;
+}
+
