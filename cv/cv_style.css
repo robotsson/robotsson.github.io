@@ -10,26 +10,25 @@ body {
     background-color: white
 }
 
+.hrbox {
+  margin-right: 0px;
+  width: 95%;
+}
+
 .flex-container{
     display: flex;
 }
 
-/* unvisited link */
-a:link {
-  color: lightgray;
-}
-/* visited link */
-a:visited {
-  color: lightsteelblue;
-}
-/* mouse over link */
-a:hover {
-  color: white;
-}
-/* selected link */
-a:active {
-  color: gray;
-}
+a.one:link { color: lightgray; text-decoration: none }
+a.one:visited { color: lightsteelblue; }
+a.one:hover { color: white; text-decoration: underline }
+a.one:active { color: gray; }
+
+a.two:link { color: black; text-decoration: none }
+a.two:visited { color: lightsteelblue; }
+a.two:hover { color: black; text-decoration: underline }
+a.two:active { color: gray; }
+
 
 .left{
     border: 0px;
@@ -51,6 +50,7 @@ a:active {
     border: 1px;
     display: block;
     max-width: 75%;
+ 
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -79,6 +79,7 @@ a:active {
 }
 
 
+
 .box{
     border: 1px;
     border-style: solid;
@@ -86,6 +87,7 @@ a:active {
     height: max-content;
     background-color: white;
     margin-top: 5px;
+    margin-right: 10px;
     margin-bottom: 5px;
     padding-left: 20px;
     padding-right: 10px;
