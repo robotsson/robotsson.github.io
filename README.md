@@ -4,12 +4,12 @@ HTML + CSS
 
 ## CV 
 
-[CV](https://robotsson.github.com/cv/index.html)
+[CV](https://robotsson.github.io/cv/index.html)
 
 ## Cupcake Bakery project
 
-[Cakery](https://robotsson.github.com/cv/index.html)
+[Cakery](https://robotsson.github.io/cakery/index.html)
 
 ## Portfolio
 
-[Portfolio](https://robotsson.github.com/cv/index.html)
+[Portfolio](https://robotsson.github.io/portfolio/index.html)
