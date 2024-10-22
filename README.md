@@ -4,7 +4,8 @@ HTML + CSS
 
 ## CV 
 
-[CV](https://robotsson.github.io/cv/index.html)
+[Attempt at a responsive web page with CV]
+(https://robotsson.github.io/cv/index.html)
 
 ## Cupcake Bakery project
 
