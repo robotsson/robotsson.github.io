@@ -72,10 +72,11 @@ a.two:active { color: gray; }
 .left_text {
     margin: auto;
     margin-top: 30px;
-    width: 60%;   
+    width: 80%;   
     font-family: "Roboto", sans-serif; font-weight: 300;
     color: white;
-    text-overflow: clip;
+    overflow: hidden;
+    text-overflow: ellipsis;   
 }
 
 /* Right side layout */
