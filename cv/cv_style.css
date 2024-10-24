@@ -75,6 +75,7 @@ a.two:active { color: gray; }
     width: 60%;   
     font-family: "Roboto", sans-serif; font-weight: 300;
     color: white;
+    text-overflow: clip;
 }
 
 /* Right side layout */
@@ -103,7 +104,6 @@ a.two:active { color: gray; }
     padding-left: 20px;
     padding-right: 10px;
     background-color: #ffffff;
-    text-overflow: clip;
 /*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
