@@ -27,8 +27,9 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: rgb(256, 239, 247);
-    align-items: center;
-    min-width:600px;
+    justify-content: center;
+    align-items: center;  
+    min-width: fit-content;
 }
 
 .welcome {
@@ -47,13 +48,6 @@ html, body {
     width: 100%;
 }
 
-.img_welcome 
-{
-    max-width: 100%;
-    height: auto;
-    width: 600px;
-}
-
 .welcome-left {
     display: flex;
     flex-direction: column;
@@ -64,8 +58,8 @@ html, body {
     background-position: center top;
     background-origin: content-box;
     width: 60%;
-    min-height:800px;
-    min-width:600px;
+    min-height:700px;
+    min-width:fit-content;
 }
 
 .welcome-right {
@@ -76,7 +70,7 @@ html, body {
     align-items: center;
     justify-content: center;
     min-height:700px;
-    min-width:300px;
+    m;
 }
 
 .img_logo
@@ -109,11 +103,10 @@ html, body {
 
 .navbar {
     color: aliceblue;
-    width: fit-content;
+    width: 600px;
     height: fit-content;
     text-align: center;
-    margin-left: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     margin-top: 20px;
     text-shadow: 1px 1px black;
     font-family: "Dosis", sans-serif; font-weight: 400; font-size: 24px;
