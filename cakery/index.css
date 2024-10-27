@@ -1,10 +1,11 @@
 html,body { font-family: "Roboto", sans-serif; font-weight: 300; }
 h1 { font-family: "Dosis", sans-serif; font-weight: 400; font-size: 52px; }
 h2 { font-family: "Roboto", sans-serif; font-weight: 500; font-size: 32px;}
-h3 { font-family: "Dosis", sans-serif; font-weight: 400; }
+h3 { font-family: "Roboto", sans-serif; font-weight: 400; font-size: 24px; }
 h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 .semi_bold { font-family: "Roboto", sans-serif; font-weight: 400; }
+.na { font-family: "Roboto", sans-serif; font-weight: 400; }
 
 a:link { color: white; text-decoration: none }
 a:visited { color: white; }
@@ -19,7 +20,7 @@ a.two:active { color: gray; }
 .flex-container-top-level {
     display: flex;
     flex-direction: column;
-    background-color: rgb(248, 187, 217);
+    background-color: rgb(256, 239, 247);
 }
 
 .welcome {
@@ -71,15 +72,19 @@ a.two:active { color: gray; }
     height: fit-content;
     text-align: center;
     margin-left: 50px;
+    margin-top: 20px;
     text-shadow: 1px 1px black;
+    font-family: "Dosis", sans-serif; font-weight: 400; font-size: 24px;
 }
+
 
 .product-menu {
     display: block;
     height: fit-content;
     text-align: center;
     align-self: center;
-    width: fit-content;
+    width: 400px;
+    margin-top: 40px;
 }
 
 .selected-products {
@@ -91,18 +96,25 @@ a.two:active { color: gray; }
     margin-bottom: 20px;
 }
 
-.cupcakes {
+.cupcakes_section {
     display: block;
-    background-color: rgb(246, 229, 237);    
-    height: 200px;
     text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
-.cakes {
+.cakes_section {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;    
+}
+
+.cakelist {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(246, 229, 237); ;    
+    background-color: rgb(256, 239, 247);    
     height: fit-content;
     text-align: center;
     align-items: center;
@@ -122,6 +134,7 @@ a.two:active { color: gray; }
     border-radius: 5px;
     border-width: 1px;
     box-shadow: 0 4px 4px 0 rgba(54, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
 }
 
 .img_cake {
@@ -148,17 +161,17 @@ a.two:active { color: gray; }
 
 .about {
     display: block;
-    background-color: lightcyan; 
+    background-color: rgb(256, 239, 247);
     height: fit-content; 
     text-align: center;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer {
     display: block;    
-    background-color:rgb(254, 254, 254);
+    background-color: rgb(246, 229, 237);
     height: fit-content;
     text-align: center; 
     margin-top: 10px;
