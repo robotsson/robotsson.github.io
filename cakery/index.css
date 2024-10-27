@@ -14,8 +14,13 @@ a:active { color: gray; }
 
 a.two:link { color: black; text-decoration: none }
 a.two:visited { color: black; }
-a.two:hover { color: grey }
+a.two:hover { color: white; transition-duration: 0.1s; }
 a.two:active { color: gray; }
+
+
+html, body {
+    margin:0;
+}
 
 .flex-container-top-level {
     display: flex;
@@ -113,11 +118,30 @@ a.two:active { color: gray; }
 
 .product-menu {
     display: flow;
+    flex-wrap: wrap;
     height: fit-content;
     text-align: center;
     align-self: center;
     width: 400px;
     margin-top: 40px;
+}
+
+.product-navbar {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    text-shadow: 1px 1px  hotpink;
+    font-family: "Dosis", sans-serif; font-weight: 400; font-size: 32px;
+}
+
+.product-category {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+
+    text-shadow: 1px 1px  hotpink;
+    font-family: "Dosis", sans-serif; font-weight: 400; font-size: 32px;
 }
 
 .selected-products {
@@ -206,7 +230,17 @@ a.two:active { color: gray; }
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    align-items: center;
     width: 40%;  
+}
+
+.small_logo {
+    width: 18px;
+    height: auto;
+}
+
+.social_media {
+    display:inline-flex;
 }
 
 .footer {
@@ -215,6 +249,8 @@ a.two:active { color: gray; }
     height: fit-content;
     text-align: center; 
     margin-top: 10px;
+    padding-bottom: 40px;
     width: 100%;
+    font-family: "Roboto", sans-serif; font-weight: 100; 
 }
 

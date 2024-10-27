@@ -12,7 +12,8 @@
   <link href="//fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
   <link
     href="//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet" ); </head>
+    rel="stylesheet">
+</head>
 
 <body>
   <!-- top level flex container -->
@@ -48,11 +49,13 @@
     <!-- end welcome page -->
 
     <div id="store" class="product-menu">
-      <h2>
-        <a href="#cakes" class="two">Cakes</a>&nbsp;&nbsp;
-        <a href="#cupcakes" class="two">Cupcakes</a>&nbsp;&nbsp;
-        <a href="#promo" class="two">Promos</a>
-      </h2>
+      <div id="menu" class="product-navbar">
+        <b>
+          <a href="#cakes" class="two">Cakes</a>&nbsp;&nbsp;
+          <a href="#cupcakes" class="two">Cupcakes</a>&nbsp;&nbsp;
+          <a href="#promo" class="two">Promos</a>
+        </b>
+      </div>
 
       <h4>
         Hello! Welcome to Munamii Cakery! We offer you the most delicious cakes and cupcakes for all kinds of events and
@@ -62,7 +65,7 @@
     </div>
 
     <div id="promo" class="selected-products">
-      <h2>Promotional offer</h2>
+      <div class="product-category"><b>Promotional offer</b></div>
 
       <div class="cake">
         <a target="" href="">
@@ -76,7 +79,7 @@
 
     <!-- cakes section -->
     <div id="cakes" class="cakes_section">
-      <h2>Cakes</h2>
+      <div class="product-category"><b>Cakes</b></div><br>
       <div id="cakelist" class="cakelist">
         <div class="cake">
           <a target="" href="">
@@ -157,7 +160,7 @@
 
     <!-- begin cupcake section -->
     <div id="cupcakes" class="cupcakes_section">
-      <h2>Cupcakes</h2>
+      <div class="product-category"><b>Cupcakes</b></div><br>
 
       <!-- begin cakelist -->
       <div id="cakelist" class="cakelist">
@@ -198,37 +201,37 @@
         </div>
         <div class="cake">
           <a target="" href="">
-            <img src="images/cupcakes/mothersday.jpg" class="img_cake">
+            <img src="images/cupcakes/cupcakes_pink_purple.jpg" class="img_cake">
           </a>
-          <div class="semi_bold">12 Mother's day cupcakes </div>
+          <div class="semi_bold">6 Pink and Purple cupcakes</div>
+          <div class="price">$25.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
+
+        <div class="cake">
+          <a target="" href="">
+            <img src="images/cupcakes/pinkcupcakebox.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">12 Pink cupcakes</div>
           <div class="price">$35.00</div>
           <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
         </div>
 
         <div class="cake">
           <a target="" href="">
-            <img src="images/cupcakes/cupcakes12.jpg" class="img_cake">
+            <img src="images/cupcakes/minimermaids.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">24 mini mermaid cupcakes</div>
+          <div class="price">$50.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
+
+        <div class="cake">
+          <a target="" href="">
+            <img src="images/cupcakes/12box.jpg" class="img_cake">
           </a>
           <div class="semi_bold">12 cupcakes</div>
-          <div class="price">$35.00</div>
-          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
-        </div>
-
-        <div class="cake">
-          <a target="" href="">
-            <img src="images/cupcakes/cupcakes6.jpg" class="img_cake">
-          </a>
-          <div class="semi_bold">6 cupcakes</div>
-          <div class="price">$20.00</div>
-          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
-        </div>
-
-        <div class="cake">
-          <a target="" href="">
-            <img src="images/cupcakes/cupcakes4.jpg" class="img_cake">
-          </a>
-          <div class="semi_bold">4 cupcakes</div>
-          <div class="price">$10.00</div>
+          <div class="price">$25.00</div>
           <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
         </div>
 
@@ -240,38 +243,43 @@
 
 
     <div id="about" class="about">
-      <h2>About us</h2>
+      <div class="product-category"><b>About us</b></div>
       <h4>At Munamii Cakery, every cake, every box of cupcakes we make has a very valuable value.</h4>   
-      <h2>Shipping and delivery</h2>
+      <div class="product-category"><b>Shipping and Delivery</b></div>
       <h4>
       Home delivery service: Guayaquil and Samborondón with additional cost.<p></p>
       Pick up location: Sector Via la Costa cdla. Urb. Puerto Azul. Request GPS Location.<p></p>
       Orders must be placed 2 days in advance for greater security, preparation and availability. <p></p>
       Contact us for more information.<p></p>
       Tuesday to Saturday<p></p>
-      9 a.m. a 2 p.m.
+      9 a.m. to 2 p.m.
       </h4>
     </div>
 
     <div id="contact" class="about">
-      <h2>Contact</h2>
-      (email)<div class="semi_bold">munamiicakes@blabla.com</div><br>
-      (tel)<div class="semi_bold">+34 919 931 454</div>
+      <div class="product-category"><b>Contact</b></div><br>
+      <div class="semi_bold social_media"><img src="images/mail.png" class="small_logo">
+        &nbsp;munamiicakes@blabla.com</div><br>
+      <div class="semi_bold social_media"><img src="images/phone.png" class="small_logo">+34 919 931 454</div>
       <p></p>
-      (fb) munamiicupcakes
-      (insta) @munamii.cakery
-      (whatsapp) WhatsApp
+      <div class="social_media">
+        <img src="images/facebook.png" class="small_logo">&nbsp;munamiicupcakes&nbsp;
+        <img src="images/instagram.png" class="small_logo">&nbsp;@munamii.cakery&nbsp;
+        <img src="images/whatsapp.png" class="small_logo">&nbsp;WhatsApp
+      </div>
       <p></p>
     </div>
 
     <div class="footer">
       <p></p>
-      (fb) share
-      (x) share
-      (p) pin
+      <div class="social_media">
+        <img src="images/facebook.png" class="small_logo">&nbsp;share&nbsp;
+        <img src="images/x.jpg" class="small_logo">&nbsp;share&nbsp;
+        <img src="images/pinterest.png" class="small_logo">&nbsp;pin
+      </div>
       <p></p>
       Delivery times - Payment information - Return policy<p></p>
-      Cakery Cakery - Report abuse
+      Munamii Cakery - Report abuse
       <p></p>
       Created with Visual Studio
     </div>
