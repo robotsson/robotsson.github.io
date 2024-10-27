@@ -16,6 +16,10 @@ CV with responsive layout
 
 Cupcake store frontend
 
+###TODO:
+
+- links to social media, email etc
+
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
 ## Portfolio
