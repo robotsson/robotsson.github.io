@@ -21,16 +21,23 @@ a.two:active { color: gray; }
     display: flex;
     flex-direction: column;
     background-color: rgb(256, 239, 247);
+    align-items: center;
 }
 
 .welcome {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-flow: wrap;
    /* background-color: lightblue; */
-    height: 800px;
+    height: fit-content;
     text-align: center;  
-    justify-content: flex-start;        
+  /*  justify-content: flex-start; 
+    align-content: stretch;   */
+    justify-content: center;
+    align-items: center;  
+    background-color: white;  
+    width: 100%;
 }
 
 .img_welcome 
@@ -48,7 +55,10 @@ a.two:active { color: gray; }
     background-image: url("images/welcome.jpg");
     background-size: cover;
     background-position: center top;
+    background-origin: content-box;
     width: 60%;
+    min-height:600px;
+    min-width:600px;
 }
 
 .welcome-right {
@@ -58,6 +68,8 @@ a.two:active { color: gray; }
     width: 40%;
     align-items: center;
     justify-content: center;
+    min-height:600px;
+    min-width:300px;
 }
 
 .img_logo
@@ -180,20 +192,29 @@ a.two:active { color: gray; }
     margin-bottom: 10px;
 }
 
+.buy-button:hover {
+    background-color: rgb(1, 145, 148);
+    color: white;
+}
+
+
+
 .about {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(256, 239, 247);
     text-align: center;
     margin-top: 10px;
-    padding-bottom: 10px;
     margin-bottom: 10px;
+    width: 40%;  
 }
 
 .footer {
     display: block;    
-    background-color: rgb(246, 229, 237);
+    background-color: rgb(256, 249, 257);
     height: fit-content;
     text-align: center; 
     margin-top: 10px;
+    width: 100%;
 }
 
