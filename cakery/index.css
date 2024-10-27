@@ -1,0 +1,73 @@
+@import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "fonts.css";
+
+html,body,h1,h2,h3,h5,h6 { font-family: "Roboto", sans-serif; font-weight: 300; }
+h1 { font-family: "Roboto", sans-serif; font-weight: 400; }
+h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
+h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
+
+
+
+.flex-container-top-level {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 187, 217);
+}
+
+.welcome {
+    display: block;
+    background-color: lightblue;
+    height: 500px;
+    text-align: center;  
+}
+
+.navbar {
+    display: block;
+    background-color: aliceblue;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+}
+
+.product-menu {
+    display: block;
+    height: fit-content;
+
+    text-align: center;
+}
+
+.selected-products {
+    display: block;
+    background-color: antiquewhite;
+    height: 100px;
+    text-align: center;
+}
+
+.cupcakes {
+    display: block;
+    background-color: rgb(246, 229, 237);    
+    height: 100px;
+    text-align: center;
+}
+
+.cakes {
+    display: block;
+    background-color: lightyellow;    
+    height: 100px;
+    text-align: center;
+}
+
+.about {
+    display: block;
+    background-color: lightcyan; 
+    height: fit-content; 
+    text-align: center;
+}
+
+.footer {
+    display: block;    
+    background-color: lightgrey;
+    height: 50px;
+    text-align: center; 
+}
+
