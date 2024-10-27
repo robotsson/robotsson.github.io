@@ -6,7 +6,9 @@ Projects for learning responsive web design in HTML and CSS.
 
 CV with responsive layout
 
-### TODO: icons for social media links
+### TODO:
+
+- icons for social media links
 
 [Link to github.io](https://robotsson.github.io/cv/index.html)
 
