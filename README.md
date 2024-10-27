@@ -16,12 +16,6 @@ CV with responsive layout
 
 Cupcake store frontend
 
-### TODO:  
-
-- icons for social media links etc
-- working links and hover effects
-- more cupcakes
-
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
 ## Portfolio
