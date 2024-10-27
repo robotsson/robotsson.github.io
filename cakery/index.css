@@ -3,10 +3,9 @@
 
 html,body,h1,h2,h3,h5,h6 { font-family: "Roboto", sans-serif; font-weight: 300; }
 h1 { font-family: "Roboto", sans-serif; font-weight: 400; }
+h3 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
-
-
 
 .flex-container-top-level {
     display: flex;
@@ -15,24 +14,56 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 }
 
 .welcome {
-    display: block;
+    display: flex;
     background-color: lightblue;
     height: 500px;
     text-align: center;  
+
+}
+
+.welcome-left {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    background-image: url("images/welcome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.welcome-right {
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-button {
+    display: block;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 200px;
+    background-color: aquamarine;
+    justify-content: center;
+    font-family: "Roboto", sans-serif; font-weight: 400;
 }
 
 .navbar {
-    display: block;
-    background-color: aliceblue;
-    text-align: left;
+    color: aliceblue;
     width: fit-content;
     height: fit-content;
+    text-align: center;
+    margin-left: 50px;
+    text-shadow: 1px 1px black;
+    text-tr
 }
 
 .product-menu {
     display: block;
     height: fit-content;
-
     text-align: center;
 }
 
@@ -67,7 +98,7 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 .footer {
     display: block;    
     background-color: lightgrey;
-    height: 50px;
+    height: fit-content;
     text-align: center; 
 }
 
