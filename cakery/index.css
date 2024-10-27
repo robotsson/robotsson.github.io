@@ -19,14 +19,16 @@ a.two:active { color: gray; }
 
 
 html, body {
-    margin:0;
+    margin: 0;
 }
+
 
 .flex-container-top-level {
     display: flex;
     flex-direction: column;
     background-color: rgb(256, 239, 247);
     align-items: center;
+    min-width:600px;
 }
 
 .welcome {
@@ -62,7 +64,7 @@ html, body {
     background-position: center top;
     background-origin: content-box;
     width: 60%;
-    min-height:600px;
+    min-height:800px;
     min-width:600px;
 }
 
@@ -73,7 +75,7 @@ html, body {
     width: 40%;
     align-items: center;
     justify-content: center;
-    min-height:600px;
+    min-height:700px;
     min-width:300px;
 }
 
@@ -85,6 +87,7 @@ html, body {
     border-style: dotted;
     box-shadow: 0 4px 4px 0 rgba(54, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
+    min-width: 300px;
 }
 
 .welcome-button {
@@ -109,7 +112,8 @@ html, body {
     width: fit-content;
     height: fit-content;
     text-align: center;
-    padding-left: 60px;
+    margin-left: 30px;
+    padding-left: 30px;
     margin-top: 20px;
     text-shadow: 1px 1px black;
     font-family: "Dosis", sans-serif; font-weight: 400; font-size: 24px;
@@ -130,7 +134,6 @@ html, body {
     text-align: center;
     color: white;
     margin-top: 20px;
-
     text-shadow: 1px 1px  hotpink;
     font-family: "Dosis", sans-serif; font-weight: 400; font-size: 32px;
 }
@@ -232,6 +235,7 @@ html, body {
     margin-bottom: 10px;
     align-items: center;
     width: 40%;  
+    min-width:300px;
 }
 
 .small_logo {
