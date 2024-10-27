@@ -109,7 +109,7 @@ html, body {
     width: fit-content;
     height: fit-content;
     text-align: center;
-    margin-left: 50px;
+    padding-left: 60px;
     margin-top: 20px;
     text-shadow: 1px 1px black;
     font-family: "Dosis", sans-serif; font-weight: 400; font-size: 24px;
