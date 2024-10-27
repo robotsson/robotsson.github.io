@@ -25,18 +25,29 @@ a.two:active { color: gray; }
 
 .welcome {
     display: flex;
-    background-color: lightblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /* background-color: lightblue; */
     height: 800px;
-    text-align: center;      
+    text-align: center;  
+    justify-content: flex-start;        
+}
+
+.img_welcome 
+{
+    max-width: 100%;
+    height: auto;
+    width: 600px;
 }
 
 .welcome-left {
     display: flex;
     flex-direction: column;
     background-color: blueviolet;
+    background-repeat: no-repeat;
     background-image: url("images/welcome.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center top;
     width: 60%;
 }
 
@@ -162,7 +173,6 @@ a.two:active { color: gray; }
 .about {
     display: block;
     background-color: rgb(256, 239, 247);
-    height: fit-content; 
     text-align: center;
     margin-top: 10px;
     padding-bottom: 10px;
