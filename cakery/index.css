@@ -100,7 +100,7 @@ a.two:active { color: gray; }
 
 
 .product-menu {
-    display: block;
+    display: flow;
     height: fit-content;
     text-align: center;
     align-self: center;
