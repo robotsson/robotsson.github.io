@@ -60,6 +60,16 @@ a.two:active { color: gray; }
     justify-content: center;
 }
 
+.img_logo
+{
+    width: 40%;
+    border-width: 1px;
+    border-color: black;
+    border-style: dotted;
+    box-shadow: 0 4px 4px 0 rgba(54, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+
 .welcome-button {
     display: block;
     border-color: red;
