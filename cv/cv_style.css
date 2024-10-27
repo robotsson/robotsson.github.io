@@ -5,6 +5,10 @@ html,body,h1,h2,h3,h5,h6 { font-family: "Roboto", sans-serif; font-weight: 300; 
 h1 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
+.semi_bold {
+  font-family: "Roboto", sans-serif; font-weight: 400;
+}
+
 
 body {
   background-color: white
@@ -19,10 +23,6 @@ body {
   display: flex;
 }
 
-/* bold is too bold, using this for companies and job titles */
-.not_bold {
-  font-family: "Roboto", sans-serif; font-weight: 400;
-}
 
 /* links used in left side box, dark background */
 a.one:link { color: lightgray; text-decoration: none }

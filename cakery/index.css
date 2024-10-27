@@ -1,11 +1,20 @@
-@import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import "fonts.css";
-
-html,body,h1,h2,h3,h5,h6 { font-family: "Roboto", sans-serif; font-weight: 300; }
-h1 { font-family: "Roboto", sans-serif; font-weight: 400; }
-h3 { font-family: "Roboto", sans-serif; font-weight: 400; }
+html,body { font-family: "Roboto", sans-serif; font-weight: 300; }
+h1 { font-family: "Dosis", sans-serif; font-weight: 400; font-size: 52px; }
+h2 { font-family: "Roboto", sans-serif; font-weight: 500; font-size: 32px;}
+h3 { font-family: "Dosis", sans-serif; font-weight: 400; }
 h4 { font-family: "Roboto", sans-serif; font-weight: 400; }
 h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
+.semi_bold { font-family: "Roboto", sans-serif; font-weight: 400; }
+
+a:link { color: white; text-decoration: none }
+a:visited { color: white; }
+a:hover { color: lightgrey }
+a:active { color: gray; }
+
+a.two:link { color: black; text-decoration: none }
+a.two:visited { color: black; }
+a.two:hover { color: grey }
+a.two:active { color: gray; }
 
 .flex-container-top-level {
     display: flex;
@@ -16,9 +25,8 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 .welcome {
     display: flex;
     background-color: lightblue;
-    height: 500px;
-    text-align: center;  
-
+    height: 800px;
+    text-align: center;      
 }
 
 .welcome-left {
@@ -34,7 +42,7 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
 .welcome-right {
     display: flex;
     flex-direction: column;
-    background-color: ivory;
+    background-color: white; 
     width: 40%;
     align-items: center;
     justify-content: center;
@@ -46,9 +54,15 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
     border-radius: 5px;
     border-width: 0px;
     width: 200px;
-    background-color: aquamarine;
+    color: white;
+    background-color: darkturquoise;
     justify-content: center;
-    font-family: "Roboto", sans-serif; font-weight: 400;
+    transition-duration: 0.4s;
+}
+
+.welcome-button:hover {
+    background-color: rgb(1, 145, 148);
+    color: white;
 }
 
 .navbar {
@@ -58,34 +72,78 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
     text-align: center;
     margin-left: 50px;
     text-shadow: 1px 1px black;
-    text-tr
 }
 
 .product-menu {
     display: block;
     height: fit-content;
     text-align: center;
+    align-self: center;
+    width: fit-content;
 }
 
 .selected-products {
     display: block;
-    background-color: antiquewhite;
-    height: 100px;
+    height: fit-content;
     text-align: center;
+    width: 322px;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 .cupcakes {
     display: block;
     background-color: rgb(246, 229, 237);    
-    height: 100px;
+    height: 200px;
     text-align: center;
 }
 
 .cakes {
-    display: block;
-    background-color: lightyellow;    
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(246, 229, 237); ;    
+    height: fit-content;
     text-align: center;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.cake
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;    
+    border-color: black;
+    border-style: dotted;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0 4px 4px 0 rgba(54, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_cake {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+
+.buy-button {
+    display: block;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    transition-duration: 0.4s;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .about {
@@ -93,12 +151,16 @@ h5 { font-family: "Roboto", sans-serif; font-weight: 200; }
     background-color: lightcyan; 
     height: fit-content; 
     text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
     display: block;    
-    background-color: lightgrey;
+    background-color:rgb(254, 254, 254);
     height: fit-content;
     text-align: center; 
+    margin-top: 10px;
 }
 

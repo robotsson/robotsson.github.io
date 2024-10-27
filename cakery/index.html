@@ -5,40 +5,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link href="//fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
   </head>
   
   <body>
     <!-- top level flex container -->
-    <div class="flex-container-top-level">
+    <div id="top" class="flex-container-top-level">
 
       <!-- welcome page -->
       <div class="welcome">
 
         <div class="welcome-left">
-          <div class="navbar"><h3>Store - About us - Address - Contact</h3></div>
+          <div class="navbar">
+            <h3>
+              <b>
+              <a href="#store">Store</a>&nbsp;&nbsp;
+              <a href="#about">About us</a>&nbsp;&nbsp;
+              <a href="#about">Address</a>&nbsp;&nbsp;
+              <a href="#contact">Contact</a>
+              </b>
+            </h3>
+          </div>
         </div>
 
         <div class="welcome-right">
-          <h1>Cakes to your door!</h1>
-          <button class="welcome-button" onclick=""><h2>Buy Now!</h2></button>
+          <h1><b>Cakes to your door!</b></h1>
+          <button class="welcome-button" onclick="document.location='#store'"><h3><b>Buy Now!</b></h3></button>
         </div>
       </div>
       <!-- end welcome page -->
 
-      <div class="product-menu"><h3>Cupcakes Cakes Promos</h1></div>
+      <div id="store" class="product-menu">
+        <h3>
+          <a href="#cupcakes" class="two">Cupcakes</a>&nbsp;&nbsp;
+          <a href="#cakes"  class="two">Cakes</a>&nbsp;&nbsp;
+          <a href="#promo"  class="two">Promos</a>
+        </h3></div>
       
-      <div class="selected-products"><p></p>
+      <div id="promo" class="selected-products"><p></p>
+        <h4>
         Hello! Welcome to Munamii Cakery! We offer you the most delicious cakes and cupcakes for all kinds of events and celebrations. Select below what you would like to buy.
+        </h4>
+        <div class="cake">
+          <a target="_top" href="">
+            <img src="images/cakes/numbercake.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Baby Month Cake</div>
+          <div class="price">$20.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
       </div>
 
-      <div class="cupcakes"><h1>Cupcakes</h1></div>
+      <div id="cupcakes" class="cupcakes"><h2>Cupcakes</h2></div>
 
-      <div class="cakes"><h1>Tortas</h1></div>
+      <h2>Cakes</h2>
+      <!-- cakes section -->
+      <div id="cakes" class="cakes">
+        
+        <div class="cake">
+          <a target="_top" href="">
+            <img src="images/cakes/birthday.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Birthday cake</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
+        
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/chocolate.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Chocolate</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
 
-      <div class="about">
-        <h1>About us</h1>
+        <div class="cake">
+          <a target="_parent" href="">
+            <img src="images/cakes/cookiemonster.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Chocolate</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
+
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/elisa.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Elisa</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>
+
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/erica.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold"><b>Erica</b></div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div> 
+        
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/roses.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Roses</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>  
+
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/kittycat.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Kittycat</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>  
+
+        <div class="cake">
+          <a target="_self" href="">
+            <img src="images/cakes/grinch.jpg" class="img_cake">
+          </a>
+          <div class="semi_bold">Grinch</div>
+          <div class="price">$35.00</div>
+          <button class="buy-button" onclick="document.location='#store'">Buy Now!</button>
+        </div>  
+
+
+      </div>
+      <!-- end cakes section -->
+
+      <div id="about" class="about">
+        <h2>About us</h2>
         At Munamii Cakery, every cake, every box of cupcakes we make has a very valuable value.
-        <h1>Shipping and delivery</h1>
+        <h2>Shipping and delivery</h2>
         Home delivery service: Guayaquil and Samborondón with additional cost.<p></p>
         Pick up location: Sector Via la Costa cdla. Urb. Puerto Azul. Request GPS Location.<p></p> 
         Orders must be placed 2 days in advance for greater security, preparation and availability. <p></p>
@@ -47,7 +154,21 @@
         9 a.m. a 2 p.m.<p></p>
       </div>
 
+      <div id="contact" class="about">
+        <h2>Contact</h2>
+        (email) munamiicakes@blabla.com 
+        (tel) +34 919 931 454<p></p>
+        (fb) munamiicupcakes
+        (insta) @munamii.cakery
+        (whatsapp) WhatsApp 
+      <p></p>   
+      </div>
+
       <div class="footer">
+        <p></p>
+        (fb)share
+        (x)share
+        (p)Pin
         <p></p>
         Delivery times - Payment information - Return policy<p></p>
         Cakery Cakery - Report abuse
