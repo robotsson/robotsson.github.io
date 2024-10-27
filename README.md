@@ -19,7 +19,7 @@ Cupcake store frontend
 ###TODO:
 
 - links to social media, email etc
-- there is probably issues with the layout on mobile
+- there can be issues with the layout on mobile
 
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
