@@ -6,7 +6,7 @@ Projects for learning responsive web design in HTML and CSS.
 
 CV with responsive layout
 
-## TODO:
+### TODO:
 
 - icons for social media links
 
@@ -16,7 +16,7 @@ CV with responsive layout
 
 Cupcake store frontend
 
-###TODO:
+### TODO:
 
 - links to social media, email etc
 - there can be issues with the layout on mobile
