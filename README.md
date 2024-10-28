@@ -12,9 +12,9 @@ CV with responsive layout.
 
 [Link to github.io](https://robotsson.github.io/cv/index.html)
 
-## Cake and Cupcake Bakery project
+## Cakery project
 
-Web store frontend.
+Web store frontend for cake and cupcake bakery.
 
 #### TODO:
 
