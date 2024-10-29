@@ -4,19 +4,19 @@ Projects for learning responsive web design in HTML and CSS.
 
 ## CV 
 
-CV with responsive layout
+CV with responsive layout.
 
-## TODO:
+#### TODO:
 
 - icons for social media links
 
 [Link to github.io](https://robotsson.github.io/cv/index.html)
 
-## Cupcake Bakery project
+## Cakery project
 
-Cupcake store frontend
+Web store frontend for cake and cupcake bakery.
 
-###TODO:
+#### TODO:
 
 - links to social media, email etc
 - there can be issues with the layout on mobile
@@ -24,5 +24,7 @@ Cupcake store frontend
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
 ## Portfolio
+
+Only placeholder at the moment.
 
 [Link to github.io](https://robotsson.github.io/portfolio/index.html)
