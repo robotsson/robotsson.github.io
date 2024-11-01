@@ -4,7 +4,7 @@ Projects for learning responsive web design in HTML and CSS.
 
 ## CV 
 
-CV with responsive layout.
+CV with responsive layout. 
 
 #### TODO:
 
@@ -20,11 +20,9 @@ Web store frontend for cake and cupcake bakery.
 
 - links to social media, email etc
 - there can be issues with the layout on mobile
+- hover effect on the products
+- change color on the product buy buttons and button hover color
 
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
-## Portfolio
 
-Only placeholder at the moment.
-
-[Link to github.io](https://robotsson.github.io/portfolio/index.html)
