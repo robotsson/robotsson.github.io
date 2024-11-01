@@ -1,21 +1,5 @@
-# Frontend Projects 
+# Start page 
 
-Projects for learning responsive web design in HTML and CSS.
-
-#### TODO:
-
-Move CV and Cakery to seperate repositories.
-
-## CV 
-
-CV with responsive layout. 
-
-#### TODO:
-
-- Icons for social media links
-- General improvement of design attractiveness
-
-[Demo on github.io](https://robotsson.github.io/cv/index.html)
 
 ## Cakery project
 
