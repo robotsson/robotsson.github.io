@@ -2,6 +2,10 @@
 
 Projects for learning responsive web design in HTML and CSS.
 
+#### TODO:
+
+Move CV and Cakery to seperate repositories.
+
 ## CV 
 
 CV with responsive layout. 
