@@ -8,7 +8,8 @@ CV with responsive layout.
 
 #### TODO:
 
-- icons for social media links
+- Icons for social media links
+- General improvement of design attractiveness
 
 [Link to github.io](https://robotsson.github.io/cv/index.html)
 
@@ -18,10 +19,10 @@ Web store frontend for cake and cupcake bakery.
 
 #### TODO:
 
-- links to social media, email etc
-- there can be issues with the layout on mobile
-- hover effect on the products
-- change color on the product buy buttons and button hover color
+- Links to social media, email etc
+- There can be issues with the layout on mobile
+- Hover effect on the products
+- Change color on the product buy buttons and button hover color
 
 [Link to github.io](https://robotsson.github.io/cakery/index.html)
 
