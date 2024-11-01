@@ -11,7 +11,7 @@ CV with responsive layout.
 - Icons for social media links
 - General improvement of design attractiveness
 
-[Link to github.io](https://robotsson.github.io/cv/index.html)
+[Demo on github.io](https://robotsson.github.io/cv/index.html)
 
 ## Cakery project
 
@@ -24,6 +24,6 @@ Web store frontend for cake and cupcake bakery.
 - Hover effect on the products
 - Change color on the product buy buttons and button hover color
 
-[Link to github.io](https://robotsson.github.io/cakery/index.html)
+[Demo on github.io](https://robotsson.github.io/cakery/index.html)
 
 
